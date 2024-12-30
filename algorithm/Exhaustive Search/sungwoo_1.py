@@ -1,20 +1,19 @@
 class Solution(object):
-    def removeElement(self, nums, val):
+    def isPalindrome(self, x):
         """
-        :type nums: List[int]
-        :type val: int
-        :rtype: int
+        :type x: int
+        :rtype: bool
         """
-        n = len(nums)
-        right = 0
-        for i in range(n):
-            if nums[i] == val:
-                while nums[n - right - 1] == val:
-                    right += 1
-                nums[i] = nums[n - right]
-                nums[n - right] = val
-                right += 1
-        k = n - right
-        print(nums)
-        print(k)
-        return k
+        if x < 0:
+            return False
+        elif x // 10 == 0:
+            return True
+        elif x % 10 == 0:
+            return False
+        
+        reversed_half = 0
+        while x > reversed_half:
+            reversed_half = reversed_half * 10 + x % 10
+            x //= 10
+        
+        return x == reversed_half or x == reversed_half // 10
