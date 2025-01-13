@@ -1,0 +1,7 @@
+- ipynb, pdf 제출 → git (ipynb 동작을 위한 다른 코드도 포함하여 upload)
+- training log 시각화, evaluation result 반드시 포함
+- pdf: 보고서
+    - 특이 사항
+    - 어려웠던 점…
+    - 분석, 고찰
+    - ipynb에 잘 정리 했으면 안써도 됨
