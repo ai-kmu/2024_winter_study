@@ -1,3 +1,4 @@
+- 1/14까지 제출
 - ipynb, pdf 제출 → git (ipynb 동작을 위한 다른 코드도 포함하여 upload)
 - training log 시각화, evaluation result 반드시 포함
 - pdf: 보고서
