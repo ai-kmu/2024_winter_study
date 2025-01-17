@@ -4,4 +4,4 @@
 URL : https://leetcode.com/problems/binary-tree-inorder-traversal/
 
 ### 문제 2
-URL : https://leetcode.com/problems/number-of-islands/
+URL : https://leetcode.com/problems/binary-tree-right-side-view/description/
