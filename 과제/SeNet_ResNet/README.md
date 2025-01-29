@@ -1,0 +1,3 @@
+- 2/3 까지 제출
+- dataset: https://data.caltech.edu/records/mzrjq-6wc02
+- 학습 경향성과 평가 결과 비교 포함할 것
