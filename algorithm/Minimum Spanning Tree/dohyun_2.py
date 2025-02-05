@@ -21,8 +21,8 @@ class Solution(object):
             visited.add(node)
             total_cost += cost
           
-            for new_cost, neighbor in graph[node]:
+            for cost, neighbor in graph[node]:
                 if neighbor not in visited:
-                    heapq.heappush(min_heap, (new_cost, neighbor))
+                    heapq.heappush(min_heap, (cost, neighbor))
                   
         return total_cost
