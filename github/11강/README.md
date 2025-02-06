@@ -21,7 +21,7 @@ git bisect bad
 git checkout (v3 - suspicious으로 이동)
 ```
 
-4. 문제시점 good 또는 bad로 표시
+4. 문제시점을 good 또는 bad로 표시
 
 5. error 지점 찾을 때까지 bisect 진행
 
