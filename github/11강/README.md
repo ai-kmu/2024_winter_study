@@ -1,10 +1,11 @@
-## 문제: 오류가 발생한 지점 찾아내기
+## 문제:
+오류가 발생한 지점 찾아내기
+
 
 ## 예제 파일에서 진행
 https://www.yalco.kr/zips/lectures/git-github-dive/git-bisect.zip
 
-## 수행 명령어
-
+## 수행 순서
 1. 이진탐색 시작
 ```bash
 git bisect start
