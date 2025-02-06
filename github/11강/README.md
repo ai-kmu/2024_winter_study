@@ -1,12 +1,33 @@
-git 11강 과제
+## 문제: 오류가 발생한 지점 찾아내기
 
-오류가 발생한 지점 찾아내기
-
-예제 파일에서 진행
+## 예제 파일에서 진행
 https://www.yalco.kr/zips/lectures/git-github-dive/git-bisect.zip
 
-- git bisect start
+## 수행 명령어
+
+1. 이진탐색 시작
+```bash
+git bisect start
+```
+
+2. 문제시점 표시
+```bash
 - git bisect bad
-- git checkout (v3 - suspicious으로 이동)
-- error 지점 찾을 때까지 bisect 진행
-- git bisect reset으로 이진 탐색 종료 후, 결과 캡쳐
+```
+
+3. 의심지점 이동
+```bash
+git checkout (v3 - suspicious으로 이동)
+```
+
+4. 문제시점 good 또는 bad로 표시
+
+5. error 지점 찾을 때까지 bisect 진행
+
+6. 이진 탐색 종료
+```bash
+git bisect reset
+```
+
+## 제출 :
+이진 탐색 종료 후 결과 캡쳐하여 `이름.png`로 이미지 제출
