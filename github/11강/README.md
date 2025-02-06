@@ -13,7 +13,7 @@ git bisect start
 
 2. 문제시점 표시
 ```bash
-- git bisect bad
+git bisect bad
 ```
 
 3. 의심지점 이동
