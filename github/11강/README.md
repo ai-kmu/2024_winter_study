@@ -30,5 +30,5 @@ git checkout (v3 - suspicious으로 이동)
 git bisect reset
 ```
 
-## 제출 :
+## 제출
 이진 탐색 종료 후 결과 캡쳐하여 `이름.png`로 이미지 제출
