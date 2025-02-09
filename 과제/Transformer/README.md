@@ -1,0 +1,10 @@
+- 2/17 까지 제출
+- CS 15
+- dataset:[”KorQuAD/squad_kor_v1”](https://huggingface.co/datasets/KorQuAD/squad_kor_v1?row=1)
+- 모델: 자유롭게 선정 후, fine-tuning 할 것
+    - e.g. google/gemma-2b, meta-llama/Llama-3.2-1B
+- 학습 및 평가
+    - huggingface Trainer 클래스를 이용해서 학습할 것
+        - https://huggingface.co/docs/transformers/main/main_classes/trainer
+- 성능 향상 및 학습 효율성을 위해 추가한 방법론 보고서에 포함시킬 것
+    - 각 방법론 간략히 설명포함
