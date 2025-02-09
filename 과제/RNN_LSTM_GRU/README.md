@@ -1,0 +1,5 @@
+- RNN, LSTM, GRU 구현 및 비교하기
+    - 2/10 까지 제출
+    - CS 13-1
+    - dataset: https://huggingface.co/datasets/StockLlama/ETH-USD-2022-01-01_2024-08-30?row=40
+    - 학습 경향성과 평가 결과 비교 포함할 것
