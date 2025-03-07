@@ -1,0 +1,11 @@
+- Semi-Supervised 환경에서 Self-SL 방법을 이용하기
+    - 3/9 까지 제출
+    - CS 20
+    - dataset: CIFAR100
+        - 각 class 당 60장의 데이터(10%)만 제공된 레이블을 활용할 것
+            - 나머지 데이터(90%)는 제공된 레이블을 활용할 수 없음
+    - baseline 모델과 our 모델을 비교할 것
+        - 각 모델은 ResNet (random-initialized)을 사용할 것
+        - baseline 모델: 레이블 데이터(10%)만을 활용하는 supervised-learning
+        - our 모델: 모든 데이터(labeled 10% + unlabeled 90%)를 활용하는 방법론을 구상하여 학습
+            - unlabeled 데이터를 활용할 때는, Self-SL 방법을 이용할 것
